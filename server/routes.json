@@ -1,0 +1,6 @@
+{
+  "/managers/:managerId/agencies": "/agencies?managerId=:managerId",
+  "/agencies/:agencyId/experiences": "/experiences?agencyId=:agencyId",
+  "/experiences/:experienceId/itineraryItems": "/itineraryItems?experienceId=:experienceId",
+  "/experiences/:experienceId/experienceImages": "/experienceImages?experienceId=:experienceId"
+}

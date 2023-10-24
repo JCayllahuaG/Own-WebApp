@@ -1,1 +1,42 @@
+@use '@angular/material' as mat;
+@include mat.core();
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+$AngularTestProject-primary: mat.define-palette(mat.$blue-palette);
+$AngularTestProject-accent: mat.define-palette(mat.$green-palette, A200, A100, A400);
+
+// The warn palette is optional (defaults to red).
+$AngularTestProject-warn: mat.define-palette(mat.$red-palette);
+
+// Create the theme object. A theme consists of configurations for individual
+// theming systems such as "color" or "typography".
+$AngularTestProject-theme: mat.define-light-theme((
+  color: (
+    primary: $AngularTestProject-primary,
+    accent: $AngularTestProject-accent,
+    warn: $AngularTestProject-warn,
+  )
+));
+
+// Include theme styles for core and each component used in your app.
+// Alternatively, you can import and @include the theme mixins for each component
+// that you are using.
+@include mat.all-component-themes($AngularTestProject-theme);
+
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+@layer base {
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+}

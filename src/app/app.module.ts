@@ -3,14 +3,59 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ExperienceCardComponent } from './experience_design/components/experience-card/experience-card.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ExperienceListComponent } from './experience_design/components/experience-list/experience-list.component';
+import { MatCardModule } from "@angular/material/card";
+import { NgOptimizedImage } from "@angular/common";
+import { MatIconModule } from "@angular/material/icon";
+import {MatGridListModule} from "@angular/material/grid-list";
+import {MatDividerModule} from "@angular/material/divider";
+import { AgencyRegisterFormComponent } from './experience_design/components/agency-register-form/agency-register-form.component';
+import {MatFormFieldModule} from "@angular/material/form-field";
+import {MatInputModule} from "@angular/material/input";
+import { ExperienceDetailComponent } from './experience_design/components/experience-detail/experience-detail.component';
+import { AgencyListComponent } from './experience_design/components/agency-list/agency-list.component';
+import { AddExperienceComponent } from './experience_design/components/add-experience/add-experience.component';
+import { AddActivityFormComponent } from './experience_design/components/add-activity-form/add-activity-form.component';
+import { ManagerSidenavComponent } from './shared/components/manager-sidenav/manager-sidenav.component';
+import {ReactiveFormsModule} from "@angular/forms";
+import { CreateObjectDialogComponent } from './shared/components/create-object-dialog/create-object-dialog.component';
+import {MatDialogModule} from "@angular/material/dialog";
+import {MatButtonModule} from "@angular/material/button";
+import { AddActivityDialogComponent } from './experience_design/components/add-activity-dialog/add-activity-dialog.component';
+import { RegisterFormComponent } from './auth/components/register-form/register-form.component';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ExperienceCardComponent,
+    ExperienceListComponent,
+    AgencyRegisterFormComponent,
+    ExperienceDetailComponent,
+    AgencyListComponent,
+    AddExperienceComponent,
+    AddActivityFormComponent,
+    ManagerSidenavComponent,
+    CreateObjectDialogComponent,
+    AddActivityDialogComponent,
+    RegisterFormComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatCardModule,
+    NgOptimizedImage,
+    MatIconModule,
+    MatGridListModule,
+    MatDividerModule,
+    MatFormFieldModule,
+    MatInputModule,
+    ReactiveFormsModule,
+    MatDialogModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

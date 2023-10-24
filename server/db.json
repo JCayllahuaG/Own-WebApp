@@ -1,0 +1,116 @@
+{
+  "managers": [
+    {
+      "id": 1,
+      "person" : {
+        "name": "Jose",
+        "lastName": "Cayllahua",
+        "dni": "74598405",
+        "age": 20,
+        "phone": "013927359"
+      },
+      "agencyNetwork": [
+        {
+          "id": 1,
+          "managerId": 1,
+          "location":{
+            "id": 1,
+            "country": "Peru",
+            "city": "Lima",
+            "latitude": 123213,
+            "longitude": 12313
+          }
+        }
+      ]
+    }
+  ],
+  "agencies":[
+    {
+      "id":1,
+      "location":{
+            "id": 1,
+            "country": "Peru",
+            "city": "Lima",
+            "latitude": 123213,
+            "longitude": 12313
+      },
+      "managerId": 1,
+      "experiences": [
+        {
+          "id": 1,
+          "status": 2,
+          "name": "experience1",
+          "description": "descriptionExperience1",
+          "price":{
+            "currency": "dolar",
+            "ammount": 12.2
+          },
+          "gallery":[
+            {
+              "id": 1,
+              "url": "https://image.jpg",
+              "description": "image Description",
+              "imageHierarchy": 1,
+              "experienceId": 1
+            }
+          ],
+          "agencyId": 1
+        }
+      ]
+    }
+  ],
+  "experiences": [
+    {
+      "id": 1,
+      "status": 2,
+      "name": "experience1",
+      "description": "descriptionExperience1",
+      "price":{
+        "currency": "dolar",
+        "ammount": 12.2
+      },
+      "gallery":[
+        {
+          "id": 1,
+          "url": "https://image.jpg",
+          "description": "image Description",
+          "imageHierarchy": 1,
+          "experienceId": 1
+        }
+      ],
+      "itinerary":[
+        {
+          "id":1,
+          "name": "itineraryItem1",
+          "experienceId": 1
+        }
+      ],
+      "agencyId": 1
+    }
+  ],
+  "itineraryItems":[
+        {
+          "id":1,
+          "name": "itineraryItem1",
+          "experienceId": 1
+        }
+  ],
+  "experienceImages": [
+    {
+      "id": 1,
+      "url": "https://image.jpg",
+      "description": "image Description",
+      "imageHierarchy": 1,
+      "experienceId": 1
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "country": "Peru",
+      "city": "Lima",
+      "latitude": 123213,
+      "longitude": 12313
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+<mat-card class="experience-card">
+  <mat-card-header class="experience-card-header">
+    <img mat-card-image class="experience-cover" src="{{cardData.url}}" alt="" >
+  </mat-card-header>
+  <mat-card-content class="experience-card-content">
+    <mat-card-title >
+      <div class="experience-rating">
+        <mat-icon aria-hidden="true" aria-label="rating icon" fontIcon="star" class="text-yellow-300"></mat-icon>
+        <h5 class="experience-rate"> {{cardData.rate}} ({{cardData.numberRates}}) </h5>
+        <p class="experience-location">
+          {{cardData.location}}
+        </p>
+      </div>
+      <div class="experience-name">
+        {{cardData.name}}
+      </div>
+    </mat-card-title>
+    <mat-card-subtitle class="experience-price">
+      {{cardData.price}}
+    </mat-card-subtitle>
+  </mat-card-content>
+</mat-card>

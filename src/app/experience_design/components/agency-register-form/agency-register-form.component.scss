@@ -1,0 +1,21 @@
+.register-agency{
+  @apply  max-w-full m-5 p-5 ;
+}
+.register-header{
+  @apply  p-10 max-w-full;
+}
+.form{
+  @apply  p-10  max-w-full;
+}
+.field{
+  @apply  my-5 p-5 flex lg:flex-row md:flex-col sm:flex-col max-w-full items-center;
+}
+.multiline-field{
+  @apply  my-5 p-5 flex lg:flex-row max-w-full items-start
+}
+.label{
+  @apply flex flex-col w-1/2;
+}
+.input{
+  @apply flex flex-col w-1/2;
+}

@@ -1,0 +1,28 @@
+.experience-card{
+  @apply flex bg-blue-50 border-b-blue-200 max-w-full rounded-2xl shadow-2xl p-2 my-10 hover:cursor-pointer;
+}
+.experience-card-header img{
+  @apply  rounded-3xl flex;
+}
+.experience-card-content {
+  @apply pt-7 flex flex-col;
+}
+.experience-rating{
+  @apply font-extralight flex align-middle justify-items-start flex-row;
+}
+.experience-rate{
+  @apply font-black;
+}
+.experience-location {
+  @apply pl-2;
+}
+.experience-name {
+  @apply pt-3 font-medium;
+}
+.experience-price{
+  @apply pt-5;
+}
+
+
+
+
