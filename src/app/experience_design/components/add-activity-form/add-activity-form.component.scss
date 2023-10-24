@@ -1,0 +1,21 @@
+.form{
+  @apply p-4 max-w-full;
+}
+mat-label{
+  @apply font-light;
+}
+.load-image{
+  @apply flex items-center justify-center w-full;
+}
+.label-input-load{
+  @apply flex flex-col items-center justify-center w-full h-64 border-2 border-gray-300 border-dashed rounded-lg cursor-pointer bg-gray-50  hover:bg-gray-100 ;
+}
+.dropzone{
+  @apply flex flex-col items-center justify-center pt-5 pb-6;
+}
+.input-message{
+  @apply mb-2 text-sm text-gray-500 dark:text-gray-400;
+}
+.input-types{
+  @apply text-xs text-gray-500 dark:text-gray-400;
+}
