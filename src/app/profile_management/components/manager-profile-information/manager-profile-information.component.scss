@@ -1,0 +1,78 @@
+.profile-info-title{
+  @apply mx-6 text-2xl font-medium m-0.5;
+}
+.profile-info-description{
+  @apply mx-6 text-gray-500 text-base;
+}
+.profile-info-container{
+  @apply flex my-4 max-w-full m-1 p-1 flex-col;
+}
+.profile-info-picture{
+  @apply flex flex-row items-start justify-items-start w-full  ;
+}
+.profile-image-container{
+  @apply flex flex-col items-start justify-items-start my-0.5 mx-3  w-[1/7] ;
+  img{
+    @apply rounded-full mx-1.5 p-0 border-2 border-gray-300;
+  }
+}
+.profile-title-container{
+  @apply flex flex-col max-w-full justify-start   p-0.5 w-[6/7];
+}
+.profile-headers-container{
+  h2{
+    @apply text-lg font-medium m-0.5;
+  }
+  p{
+    @apply text-gray-500 text-base;
+  }
+}
+.profile-button-container{
+  @apply my-1.5 py-4;
+  .button-container{
+    @apply flex max-w-fit shadow-inner drop-shadow-md rounded-md bg-white p-1.5 hover:cursor-pointer;
+  }
+  .input-file-label{
+    @apply flex justify-around items-center m-1 hover:cursor-pointer;
+  }
+  input {
+    cursor: pointer;
+    display: none;
+    max-width: 100%;
+    max-height: 100%;
+  }
+}
+.profile-info-form{
+  @apply m-0 p-0 ml-3;
+
+  .form-inputs-container{
+
+    @apply grid gap-6 mb-6 md:grid-cols-2;
+    .input-field{
+
+      .input-label{
+        @apply block mb-2 text-sm font-medium text-gray-900;
+      }
+      .input{
+        @apply bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5;
+
+      }
+
+    }
+
+  }
+
+}
+.inputs-row-container{
+  @apply grid gap-6 mb-6 sm:grid-cols-2 md:grid-cols-3;
+  .input-label{
+    @apply block mb-2 text-sm font-medium text-gray-900;
+  }
+  .input{
+    @apply bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5;
+
+  }
+}
+.profile-info-button{
+  @apply flex ml-3 justify-start items-end;
+}

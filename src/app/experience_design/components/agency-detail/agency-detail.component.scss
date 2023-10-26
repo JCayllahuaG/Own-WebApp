@@ -1,0 +1,42 @@
+.agency-detail-container{
+  @apply m-0 p-3;
+}
+.agency-detail{
+  @apply rounded-t-2xl;
+}
+.banner {
+  @apply relative w-full h-[300px];
+  .banner-background {
+    background-image: url("https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    @apply w-full h-[180px] rounded-t-2xl;
+
+    img {
+      @apply w-[200px] h-[200px] m-0 p-0 rounded-full;
+    }
+  }
+  .agency-brand-image{
+    @apply ml-4 top-[80px] absolute m-0 p-0 border border-black;
+  }
+  img {
+    @apply w-[200px] h-[200px] m-0 p-0 rounded-full;
+  }
+}
+.info{
+  @apply m-4;
+  h1{
+    @apply text-2xl font-medium;
+  }
+  h2{
+    @apply text-sm font-light;
+  }
+  p{
+    @apply text-sm font-light text-gray-400;
+  }
+  span{
+    @apply text-sm font-light text-gray-400;
+  }
+}
+mat-tab{
+  @apply text-blue-600 m-0;
+}

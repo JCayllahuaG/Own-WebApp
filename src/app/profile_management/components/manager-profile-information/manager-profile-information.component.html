@@ -1,0 +1,59 @@
+<h1 class="profile-info-title">Profile</h1>
+<p class="profile-info-description">Manage settings for your profile</p>
+
+<div class="profile-info-container">
+  <div class="profile-info-picture">
+    <div class="profile-image-container">
+      <img src="https://ui-avatars.com/api/?background=d1d5db&color=475569&name=new+user&rounded=true" alt="ProfileAvatar">
+    </div>
+    <div class="profile-title-container">
+      <div class="profile-headers-container">
+        <h2>Profile picture</h2>
+        <p>We support PNGs, JPEGs and SVGs under 10MB</p>
+      </div>
+      <div class="profile-button-container">
+        <div class="button-container">
+
+          <label for="input-file" class="input-file-label">
+            <ng-icon name="heroArrowUpTray" class="mx-1"></ng-icon>
+            Upload image
+          </label>
+          <input id="input-file" type="file">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="profile-info-form">
+    <form class="info-form">
+      <div class="form-inputs-container">
+        <div class="input-field">
+          <label for="first_name" class="input-label">First name <span class="text-red-600">*</span></label>
+          <input id="first_name" class="input" type="text" placeholder="User First Name" required >
+        </div>
+        <div class="input-field">
+          <label for="last_name" class="input-label">Last name <span class="text-red-600">*</span></label>
+          <input id="last_name" class="input" type="text" placeholder="User Last Name" required >
+        </div>
+      </div>
+      <div class="inputs-row-container">
+          <div class="input-field">
+            <label for="age" class="input-label">Age <span class="text-red-600">*</span> </label>
+            <input id="age" class="input" type="number"  placeholder="30" required >
+          </div>
+          <div class="input-field">
+            <label for="phone" class="input-label">Phone number</label>
+            <input id="phone" class="input" type="text" placeholder="123-456-798" required >
+          </div>
+          <div class="input-field">
+            <label for="dni" class="input-label">National ID <span class="text-red-600">*</span> </label>
+            <input id="dni" class="input" type="number" placeholder="Ex. 74598789" required >
+          </div>
+      </div>
+    </form>
+  </div>
+  <div class="profile-info-button">
+    <button mat-raised-button color="primary" class="update-button">
+      Update profile
+    </button>
+  </div>
+</div>

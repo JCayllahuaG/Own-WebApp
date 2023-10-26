@@ -25,8 +25,13 @@ import {MatDialogModule} from "@angular/material/dialog";
 import {MatButtonModule} from "@angular/material/button";
 import { AddActivityDialogComponent } from './experience_design/components/add-activity-dialog/add-activity-dialog.component';
 import { RegisterFormComponent } from './auth/components/register-form/register-form.component';
-
-
+import { ManagerProfileInformationComponent } from './profile_management/components/manager-profile-information/manager-profile-information.component';
+import { NgIconsModule } from "@ng-icons/core";
+import { heroArrowUpTray} from "@ng-icons/heroicons/outline";
+import { AgencyCardComponent } from './experience_design/components/agency-card/agency-card.component';
+import { AgencyDetailComponent } from './experience_design/components/agency-detail/agency-detail.component';
+import { AgencyDetailEditComponent } from './experience_design/components/agency-detail-edit/agency-detail-edit.component';
+import { MatTabsModule } from '@angular/material/tabs';
 @NgModule({
   declarations: [
     AppComponent,
@@ -40,7 +45,11 @@ import { RegisterFormComponent } from './auth/components/register-form/register-
     ManagerSidenavComponent,
     CreateObjectDialogComponent,
     AddActivityDialogComponent,
-    RegisterFormComponent
+    RegisterFormComponent,
+    ManagerProfileInformationComponent,
+    AgencyCardComponent,
+    AgencyDetailComponent,
+    AgencyDetailEditComponent,
   ],
   imports: [
     BrowserModule,
@@ -54,10 +63,14 @@ import { RegisterFormComponent } from './auth/components/register-form/register-
     MatFormFieldModule,
     MatInputModule,
     ReactiveFormsModule,
+    MatTabsModule,
     MatDialogModule,
-    MatButtonModule
+    MatButtonModule,
+    NgIconsModule.withIcons({heroArrowUpTray})
   ],
-  providers: [],
+  providers: [
+
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
