@@ -1,6 +1,8 @@
 @use '@angular/material' as mat;
 @include mat.core();
-
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 $go2climb-palette: (
   50: #eff6ff,
