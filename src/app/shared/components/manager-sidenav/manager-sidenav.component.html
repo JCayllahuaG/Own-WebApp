@@ -1,1 +1,41 @@
-<p>manager-sidenav works!</p>
+<aside
+  class="sidenav w-[250px] max-h-full top-0 bottom-0 font-sans flex flex-col bg-primary-600 m-1 p-1 text-white transition-all ease-in duration-[0.5s] fixed rounded-l-2xl"
+  [ngClass]="collapsed ? 'sidenav-collapsed' : ''">
+  <div
+    class="brand-container flex flex-row items-center justify-center w-full">
+    <button
+      class="brand text-center w-[3rem] font-semibold"
+      type="button">
+      <img
+        src="assets/images/brand-go2climb.png"
+        alt="brand image" />
+    </button>
+    <div
+      class="brand-text font-semibold text-[24px]"
+      *ngIf="collapsed">
+      Go2Climb
+    </div>
+    <button class="toggle" *ngIf="collapsed" type="button">
+      <i> </i>
+    </button>
+  </div>
+  <ul class="sidenav-nav border border-black">
+    <li
+      class="sidenav-nav-item border border-black"
+      *ngFor="let item of data">
+      <a
+        href=""
+        class="sidenav-nav-link border border-black"
+        [routerLink]="item.routeLink">
+        <ng-icon
+          name="{{ item.icon }}}"
+          class="sidenav-link-icon border border-black"></ng-icon>
+        <span
+          class="sidenav-link-text border border-black"
+          *ngIf="collapsed"
+          >{{ item.label }}</span
+        >
+      </a>
+    </li>
+  </ul>
+</aside>

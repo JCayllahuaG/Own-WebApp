@@ -30,6 +30,7 @@
       "status": 2,
       "name": "experience1",
       "description": "descriptionExperience1",
+      "rate": 2,
       "price":{
         "currency": "dolar",
         "amount": 12.2
@@ -39,6 +40,557 @@
           "id":1,
           "name": "itineraryItem1",
           "experienceId": 1
+        }
+      ],
+      "agencyId": 1
+    },
+    {
+      "id": 2,
+      "status": 2,
+      "name": "experience1",
+      "description": "descriptionExperience1",
+"rate": 2,
+      "price":{
+        "currency": "dolar",
+        "amount": 12.2
+      },
+      "itinerary":[
+        {
+          "id":1,
+          "name": "itineraryItem1",
+          "experienceId": 1
+        }
+      ],
+      "agencyId": 1
+    },
+    {
+      "id": 3,
+      "status": 2,
+      "name": "experience1",
+      "description": "descriptionExperience1",
+"rate": 2,
+      "price":{
+        "currency": "dolar",
+        "amount": 12.2
+      },
+      "itinerary":[
+        {
+          "id":1,
+          "name": "itineraryItem1",
+          "experienceId": 1
+        }
+      ],
+      "agencyId": 1
+    },
+    {
+      "id": 4,
+      "status": 2,
+      "name": "experience1",
+      "description": "descriptionExperience1",
+"rate": 2,
+      "price":{
+        "currency": "dolar",
+        "amount": 12.2
+      },
+      "itinerary":[
+        {
+          "id":1,
+          "name": "itineraryItem1",
+          "experienceId": 1
+        }
+      ],
+      "agencyId": 1
+    },
+    {
+      "id": 5,
+      "status": 2,
+      "name": "experience1",
+      "description": "descriptionExperience1",
+"rate": 2,
+      "price":{
+        "currency": "dolar",
+        "amount": 12.2
+      },
+      "itinerary":[
+        {
+          "id":1,
+          "name": "itineraryItem1",
+          "experienceId": 1
+        }
+      ],
+      "agencyId": 1
+    },
+    {
+      "id": 6,
+      "status": 2,
+      "name": "experience1",
+      "description": "descriptionExperience1",
+"rate": 2,
+      "price":{
+        "currency": "dolar",
+        "amount": 12.2
+      },
+      "itinerary":[
+        {
+          "id":1,
+          "name": "itineraryItem1",
+          "experienceId": 1
+        }
+      ],
+      "agencyId": 1
+    },
+    {
+      "id": 7,
+      "status": 2,
+      "name": "experience1",
+      "description": "descriptionExperience1",
+"rate": 2,
+      "price": {
+        "currency": "dolar",
+        "amount": 12.2
+      },
+      "itinerary": [
+        {
+          "id": 1,
+          "name": "itineraryItem1",
+          "experienceId": 7
+        }
+      ],
+      "agencyId": 1
+    },
+    {
+      "id": 8,
+      "status": 2,
+      "name": "experience1",
+      "description": "descriptionExperience1",
+"rate": 3,
+      "price": {
+        "currency": "dolar",
+        "amount": 12.2
+      },
+      "itinerary": [
+        {
+          "id": 1,
+          "name": "itineraryItem1",
+          "experienceId": 8
+        }
+      ],
+      "agencyId": 1
+    },
+    {
+      "id": 9,
+      "status": 2,
+      "name": "experience1",
+      "description": "descriptionExperience1",
+"rate": 3,
+      "price": {
+        "currency": "dolar",
+        "amount": 12.2
+      },
+      "itinerary": [
+        {
+          "id": 1,
+          "name": "itineraryItem1",
+          "experienceId": 9
+        }
+      ],
+      "agencyId": 1
+    },
+    {
+      "id": 10,
+      "status": 2,
+      "name": "experience1",
+      "description": "descriptionExperience1",
+"rate": 4,
+      "price": {
+        "currency": "dolar",
+        "amount": 12.2
+      },
+      "itinerary": [
+        {
+          "id": 1,
+          "name": "itineraryItem1",
+          "experienceId": 10
+        }
+      ],
+      "agencyId": 1
+    },
+    {
+      "id": 11,
+      "status": 2,
+      "name": "experience1",
+      "description": "descriptionExperience1",
+"rate": 4,
+      "price": {
+        "currency": "dolar",
+        "amount": 12.2
+      },
+      "itinerary": [
+        {
+          "id": 1,
+          "name": "itineraryItem1",
+          "experienceId": 11
+        }
+      ],
+      "agencyId": 1
+    },
+    {
+      "id": 12,
+      "status": 2,
+      "name": "experience1",
+      "description": "descriptionExperience1",
+"rate": 4,
+      "price": {
+        "currency": "dolar",
+        "amount": 12.2
+      },
+      "itinerary": [
+        {
+          "id": 1,
+          "name": "itineraryItem1",
+          "experienceId": 12
+        }
+      ],
+      "agencyId": 1
+    },
+    {
+      "id": 13,
+      "status": 2,
+      "name": "experience1",
+      "description": "descriptionExperience1",
+"rate": 8,
+      "price": {
+        "currency": "dolar",
+        "amount": 12.2
+      },
+      "itinerary": [
+        {
+          "id": 1,
+          "name": "itineraryItem1",
+          "experienceId": 13
+        }
+      ],
+      "agencyId": 1
+    },
+    {
+      "id": 14,
+      "status": 2,
+      "name": "experience1",
+      "description": "descriptionExperience1",
+"rate": 8,
+      "price": {
+        "currency": "dolar",
+        "amount": 12.2
+      },
+      "itinerary": [
+        {
+          "id": 1,
+          "name": "itineraryItem1",
+          "experienceId": 14
+        }
+      ],
+      "agencyId": 1
+    },
+    {
+      "id": 15,
+      "status": 2,
+      "name": "experience1",
+      "description": "descriptionExperience1",
+"rate": 8,
+      "price": {
+        "currency": "dolar",
+        "amount": 12.2
+      },
+      "itinerary": [
+        {
+          "id": 1,
+          "name": "itineraryItem1",
+          "experienceId": 15
+        }
+      ],
+      "agencyId": 1
+    },
+    {
+      "id": 16,
+      "status": 2,
+      "name": "experience1",
+      "description": "descriptionExperience1",
+"rate": 5,
+      "price": {
+        "currency": "dolar",
+        "amount": 12.2
+      },
+      "itinerary": [
+        {
+          "id": 1,
+          "name": "itineraryItem1",
+          "experienceId": 16
+        }
+      ],
+      "agencyId": 1
+    },
+    {
+      "id": 17,
+      "status": 2,
+      "name": "experience1",
+      "description": "descriptionExperience1",
+"rate": 5,
+      "price": {
+        "currency": "dolar",
+        "amount": 12.2
+      },
+      "itinerary": [
+        {
+          "id": 1,
+          "name": "itineraryItem1",
+          "experienceId": 17
+        }
+      ],
+      "agencyId": 1
+    },
+    {
+      "id": 18,
+      "status": 2,
+      "name": "experience1",
+      "description": "descriptionExperience1",
+"rate": 5,
+      "price": {
+        "currency": "dolar",
+        "amount": 12.2
+      },
+      "itinerary": [
+        {
+          "id": 1,
+          "name": "itineraryItem1",
+          "experienceId": 18
+        }
+      ],
+      "agencyId": 1
+    },
+    {
+      "id": 19,
+      "status": 2,
+      "name": "experience1",
+      "description": "descriptionExperience1",
+"rate": 5,
+      "price": {
+        "currency": "dolar",
+        "amount": 12.2
+      },
+      "itinerary": [
+        {
+          "id": 1,
+          "name": "itineraryItem1",
+          "experienceId": 19
+        }
+      ],
+      "agencyId": 1
+    },
+    {
+      "id": 20,
+      "status": 2,
+      "name": "experience1",
+      "description": "descriptionExperience1",
+"rate": 2,
+      "price": {
+        "currency": "dolar",
+        "amount": 12.2
+      },
+      "itinerary": [
+        {
+          "id": 1,
+          "name": "itineraryItem1",
+          "experienceId": 20
+        }
+      ],
+      "agencyId": 1
+    },
+    {
+      "id": 21,
+      "status": 2,
+      "name": "experience1",
+      "description": "descriptionExperience1",
+"rate": 2,
+      "price": {
+        "currency": "dolar",
+        "amount": 12.2
+      },
+      "itinerary": [
+        {
+          "id": 1,
+          "name": "itineraryItem1",
+          "experienceId": 21
+        }
+      ],
+      "agencyId": 1
+    },
+    {
+      "id": 22,
+      "status": 2,
+      "name": "experience1",
+      "description": "descriptionExperience1",
+"rate": 2,
+      "price": {
+        "currency": "dolar",
+        "amount": 12.2
+      },
+      "itinerary": [
+        {
+          "id": 1,
+          "name": "itineraryItem1",
+          "experienceId": 22
+        }
+      ],
+      "agencyId": 1
+    },
+    {
+      "id": 23,
+      "status": 2,
+      "name": "experience1",
+      "description": "descriptionExperience1",
+"rate": 2,
+      "price": {
+        "currency": "dolar",
+        "amount": 12.2
+      },
+      "itinerary": [
+        {
+          "id": 1,
+          "name": "itineraryItem1",
+          "experienceId": 23
+        }
+      ],
+      "agencyId": 1
+    },
+    {
+      "id": 24,
+      "status": 2,
+      "name": "experience1",
+      "description": "descriptionExperience1",
+"rate": 2,
+      "price": {
+        "currency": "dolar",
+        "amount": 12.2
+      },
+      "itinerary": [
+        {
+          "id": 1,
+          "name": "itineraryItem1",
+          "experienceId": 24
+        }
+      ],
+      "agencyId": 1
+    },
+    {
+      "id": 25,
+      "status": 2,
+      "name": "experience1",
+      "description": "descriptionExperience1",
+"rate": 2,
+      "price": {
+        "currency": "dolar",
+        "amount": 12.2
+      },
+      "itinerary": [
+        {
+          "id": 1,
+          "name": "itineraryItem1",
+          "experienceId": 25
+        }
+      ],
+      "agencyId": 1
+    },
+    {
+      "id": 26,
+      "status": 2,
+      "name": "experience1",
+      "description": "descriptionExperience1",
+"rate": 2,
+      "price": {
+        "currency": "dolar",
+        "amount": 12.2
+      },
+      "itinerary": [
+        {
+          "id": 1,
+          "name": "itineraryItem1",
+          "experienceId": 26
+        }
+      ],
+      "agencyId": 1
+    },
+    {
+      "id": 27,
+      "status": 2,
+      "name": "experience1",
+      "description": "descriptionExperience1",
+"rate": 2,
+      "price": {
+        "currency": "dolar",
+        "amount": 12.2
+      },
+      "itinerary": [
+        {
+          "id": 1,
+          "name": "itineraryItem1",
+          "experienceId": 27
+        }
+      ],
+      "agencyId": 1
+    },
+    {
+      "id": 28,
+      "status": 2,
+      "name": "experience1",
+      "description": "descriptionExperience1",
+"rate": 2,
+      "price": {
+        "currency": "dolar",
+        "amount": 12.2
+      },
+      "itinerary": [
+        {
+          "id": 1,
+          "name": "itineraryItem1",
+          "experienceId": 28
+        }
+      ],
+      "agencyId": 1
+    },
+    {
+      "id": 29,
+      "status": 2,
+      "name": "experience1",
+      "description": "descriptionExperience1",
+"rate": 2,
+      "price": {
+        "currency": "dolar",
+        "amount": 12.2
+      },
+      "itinerary": [
+        {
+          "id": 1,
+          "name": "itineraryItem1",
+          "experienceId": 29
+        }
+      ],
+      "agencyId": 1
+    },
+    {
+      "id": 30,
+      "status": 2,
+      "name": "experience1",
+      "description": "descriptionExperience1",
+"rate": 2,
+      "price": {
+        "currency": "dolar",
+        "amount": 12.2
+      },
+      "itinerary": [
+        {
+          "id": 1,
+          "name": "itineraryItem1",
+          "experienceId": 30
         }
       ],
       "agencyId": 1

@@ -1,0 +1,27 @@
+.page-not-found-container{
+  @apply h-full w-full flex flex-col justify-center items-center bg-primary-950;
+}
+.title-code{
+  @apply text-9xl text-white font-extrabold tracking-widest;
+}
+.page-content{
+  @apply bg-[#FF6A3D] rounded rotate-12 absolute;
+}
+.button {
+  @apply mt-5;
+
+  .button-container{
+    @apply relative inline-block text-sm font-medium text-emerald-500 active:text-orange-500 focus:outline-none focus:ring;
+
+    .back{
+      @apply absolute inset-0 transition-transform translate-x-0.5 translate-y-0.5 bg-emerald-500 ;
+    }
+    .front {
+      @apply relative block px-8 py-3 bg-primary-950 border border-emerald-500;
+    }
+  }
+  .button-container:hover span:first-child{
+    @apply translate-x-0 translate-y-0;
+  }
+
+}

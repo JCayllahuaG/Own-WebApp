@@ -1,0 +1,13 @@
+<div class="container-swiper">
+  <swiper-container
+    loop="true"
+    pagination="true"
+    pagination-clickable="true"
+    breakpoints='{"300": {"slidesPerView": 1},"768": {"slidesPerView": 3}}'
+    centered-slides="true"
+    css-mode="true">
+    <swiper-slide *ngFor="let card of swiperCardsAmount">
+      <app-minimal-experience-card></app-minimal-experience-card>
+    </swiper-slide>
+  </swiper-container>
+</div>

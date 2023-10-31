@@ -1,0 +1,27 @@
+<div class="h-full p-2">
+  <mat-grid-list
+    cols="{{ getGridCols() }}"
+    rowHeight="{{ rowHeight }}"
+    (window:resize)="onResize($event)">
+    <mat-grid-tile colspan="3" rowspan="2">
+      <div class="w-full h-full">
+        <app-experience-search-bar />
+      </div>
+    </mat-grid-tile>
+    <mat-grid-tile
+      *ngIf="getScreenType() === 'desktop'"
+      colspan="2"
+      rowspan="8">
+      <div class="w-full h-full border border-black">2</div>
+    </mat-grid-tile>
+    <mat-grid-tile colspan="3" rowspan="3">
+      <div
+        class="w-full h-full border border-black justify-center items-center">
+        <app-card-slider />
+      </div>
+    </mat-grid-tile>
+    <mat-grid-tile colspan="3" rowspan="3">
+      <div class="w-full h-full border border-black">4</div>
+    </mat-grid-tile>
+  </mat-grid-list>
+</div>

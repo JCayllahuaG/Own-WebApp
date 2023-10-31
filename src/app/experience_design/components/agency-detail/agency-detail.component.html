@@ -1,30 +1,74 @@
 <div class="agency-detail-container">
-  <div class="agency-detail">
-    <div class="banner">
-      <div class="banner-background"></div>
-      <div class="agency-brand-image">
-        <img
-          src="https://i.pinimg.com/736x/35/3a/d9/353ad9619623b527859c9ce2d07dbcac.jpg"
-          alt="agency brand image" />
+  <div class="agency-container">
+    <div class="agency-detail">
+      <div class="banner">
+        <div class="banner-background"></div>
+        <div class="agency-brand-image">
+          <img
+            src="https://i.pinimg.com/736x/35/3a/d9/353ad9619623b527859c9ce2d07dbcac.jpg"
+            alt="agency brand image" />
+        </div>
+      </div>
+      <div class="info">
+        <h1>Viva Climb</h1>
+        <h2>Building on belief</h2>
+        <p>
+          Alpine experiences, climbing, trekking <b>·</b>
+          <span> Ancash, Peru</span>
+        </p>
       </div>
     </div>
-    <div class="info">
-      <h1>Viva Climb</h1>
-      <h2>Building on belief</h2>
-      <p>
-        Alpine experiences, climbing, trekking <b>·</b>
-        <span> Ancash, Peru</span>
-      </p>
+    <mat-divider></mat-divider>
+    <div class="agency-detail-tab-container">
+      <mat-tab-group
+        animationDuration="500ms"
+        color="primary">
+        <mat-tab label="Home" #homeTab></mat-tab>
+        <mat-tab label="About" #aboutTab></mat-tab>
+        <mat-tab label="Experiences"></mat-tab>
+        <mat-tab label="Ratings"></mat-tab>
+      </mat-tab-group>
     </div>
   </div>
-  <div>
-    <mat-tab-group
-      animationDuration="500ms"
-      color="primary">
-      <mat-tab label="Home">Home </mat-tab>
-      <mat-tab label="About">Overview </mat-tab>
-      <mat-tab label="Experiences">Experiences </mat-tab>
-      <mat-tab label="Ratings">Ratings </mat-tab>
-    </mat-tab-group>
+
+  <!--Home tab content-->
+  <div
+    class="tab-content"
+    [ngStyle]="{
+      display: !homeTab.isActive ? 'none' : null
+    }">
+    Home
+  </div>
+  <!--About tab content-->
+  <div
+    class="tab-content"
+    [ngStyle]="{
+      display: !aboutTab.isActive ? 'none' : null
+    }">
+    <div class="tab-agency-content">
+      <app-agency-detail-description>
+        <h1 title>Overview</h1>
+      </app-agency-detail-description>
+      <div class="detail-data">
+        <h2>Website</h2>
+        <a
+          href="https://www.tivit.com/es/"
+          class="text-blue-500 font-normal text-sm"
+          >https://www.tivit.com/es/</a
+        >
+        <h2>Industry</h2>
+        <span class="font-light text-sm"
+          >Tourism services and trekking activities</span
+        >
+        <h2>Headquarters</h2>
+        <span class="font-light text-sm"
+          >Santiago de chile, Santiago</span
+        >
+      </div>
+    </div>
+    <div class="tab-agency-content">
+      <!--TODO: Implement agency locations with map api to show visual map and points with the locations-->
+      <div>Agency Locations</div>
+    </div>
   </div>
 </div>

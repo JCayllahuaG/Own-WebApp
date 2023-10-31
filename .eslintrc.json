@@ -30,6 +30,7 @@
     "ignorePatterns": [
         "node_modules/",
         "dist/",
-        "tailwind.config.js"
+        "tailwind.config.js",
+        "src/app/app.module.ts"
     ]
 }

@@ -1,0 +1,33 @@
+/*
+.sidenav {
+
+  @apply m-1 top-0 bottom-0 flex flex-col max-h-full  font-sans bg-primary-700 transition-all  ease-in duration-[0.5s] fixed w-fit text-white rounded-l-2xl;
+
+  .brand-container{
+    @apply flex flex-row items-center p-1 w-full;
+
+
+    .brand{
+      @apply text-center w-[3rem] min-w-[3rem] rounded-2xl p-[0.313rem] text-[24px] font-semibold ;
+    }
+    .brand-text{
+      @apply ml-1.5
+    }
+    .toggle{
+    }
+  }
+
+  .sidenav-nav{
+    @apply flex flex-col items-center w-full justify-around;
+
+    .sidenav-nav-item{
+
+
+
+      .sidenav-nav-link{
+        @apply items-center;
+      }
+    }
+  }
+}
+*/

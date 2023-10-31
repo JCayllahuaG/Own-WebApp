@@ -1,0 +1,23 @@
+.minimal-card{
+  @apply m-5 ;
+}
+
+.card-container{
+  @apply flex flex-col min-h-[200px] justify-between border text-white border-black w-full m-0 top-0 bottom-0 rounded-xl p-2 bg-cover bg-center  bg-[url(https://images.pexels.com/photos/147411/italy-mountains-dawn-daybreak-147411.jpeg)] ;
+}
+.card-top{
+  @apply flex flex-row justify-between items-center;
+}
+.experience-price{
+  @apply min-w-[100px] max-w-full px-2 py-1 tracking-wider text-center bg-opacity-40 bg-gray-600 rounded-xl font-sans lg:text-base;
+}
+.card-icon-fav {
+  @apply min-w-[60px] flex justify-center items-center align-middle h-full px-2 py-1 bg-opacity-40 bg-gray-600 rounded-xl lg:text-base;
+}
+.card-info {
+
+
+  .rate{
+    @apply flex items-center align-middle;
+  }
+}

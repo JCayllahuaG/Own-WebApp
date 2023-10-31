@@ -1,0 +1,50 @@
+<div class="container-all">
+  <div class="search-bar-container">
+    <div class="content-container">
+      <div class="inputs-container">
+        <div class="input-location-container">
+          <input
+            type="text"
+            autocomplete="off"
+            placeholder="City or Country" />
+        </div>
+        <div class="inputs-date-range-container">
+          <form>
+            <mat-date-range-input
+              [rangePicker]="rangePicker">
+              <input
+                matStartDate
+                readonly
+                (click)="rangePicker.open()"
+                placeHolder="Initial Date" />
+              <input
+                matEndDate
+                readonly
+                (click)="rangePicker.open()"
+                placeHolder="Final Date" />
+
+              <mat-date-range-picker #rangePicker>
+                <mat-date-range-picker-actions>
+                  <button
+                    mat-button
+                    matDateRangePickerCancel>
+                    Cancel
+                  </button>
+                  <button
+                    mat-raised-button
+                    color="primary"
+                    matDateRangePickerApply>
+                    Apply
+                  </button>
+                </mat-date-range-picker-actions>
+              </mat-date-range-picker>
+            </mat-date-range-input>
+          </form>
+        </div>
+      </div>
+      <div class="button-container">
+        <button>Search</button>
+      </div>
+    </div>
+  </div>
+</div>

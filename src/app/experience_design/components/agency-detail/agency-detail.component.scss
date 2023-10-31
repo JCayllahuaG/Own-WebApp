@@ -1,6 +1,10 @@
 .agency-detail-container{
   @apply m-0 p-3;
 }
+.agency-container{
+  @apply border border-gray-300 rounded-2xl drop-shadow;
+}
+
 .agency-detail{
   @apply rounded-t-2xl;
 }
@@ -16,14 +20,15 @@
     }
   }
   .agency-brand-image{
-    @apply ml-4 top-[80px] absolute m-0 p-0 border border-black;
+    @apply ml-4 top-[80px] absolute m-0 p-0;
   }
   img {
     @apply w-[200px] h-[200px] m-0 p-0 rounded-full;
   }
 }
 .info{
-  @apply m-4;
+  @apply m-4 ;
+
   h1{
     @apply text-2xl font-medium;
   }
@@ -37,6 +42,23 @@
     @apply text-sm font-light text-gray-400;
   }
 }
-mat-tab{
-  @apply text-blue-600 m-0;
+.agency-detail-tab-container{
+  @apply px-3 rounded-b-2xl ;
+}
+
+/*Tabs Container*/
+
+.tab-content{
+  @apply mt-4;
+}
+
+/*Tab Home Content*/
+
+/*Tab About Content*/
+.tab-agency-content{
+  @apply p-5 mt-2 border border-gray-300 rounded-2xl shadow-md;
+
+  .detail-data{
+    @apply mt-2 leading-loose;
+  }
 }

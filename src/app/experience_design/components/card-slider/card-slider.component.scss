@@ -1,0 +1,9 @@
+.container-swiper{
+  @apply h-full;
+}
+swiper-container{
+  @apply h-full flex items-center w-full p-0 m-0;
+}
+swiper-slide{
+  @apply h-full flex items-center justify-center p-0 m-0;
+}
