@@ -7,8 +7,6 @@ import {Component, Input} from '@angular/core';
 })
 export class ExperienceCardComponent {
 
-  experienceImageUrl:string = "https://material.angular.io/assets/img/examples/shiba2.jpg";
+  experienceImageUrl:string = "https://i.pinimg.com/736x/ac/50/d1/ac50d1d14bbe26811dc5d15844bb5ec6.jpg";
   @Input() cardData: any;
-
-
 }
